@@ -1,0 +1,16 @@
+3 différents Design Pattern utilisés :
+______________________________________
+
+- Observer Pattern:
+Permet de notifier le changement de statut d'un joueur (en prison ou pas)
+à tous les autres objets.
+
+- Factory Pattern:
+Permet l'instanciation d'un nouvel objet d'une classe sans passer par
+le "new Player('')".
+--> Permet d'implémenter une condition à la création d'une instance de la classe Player
+(par exemple, deux joueurs ne peuvent pas avoir le même nom).
+
+- Singleton Pattern: 
+Assure la création d'une et une seule instance de la classe GameBoard.
+
